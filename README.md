@@ -1,2 +1,2 @@
 # Programación Orientada a Objetos
-## Ángel Aguilar
+Ángel Aguilar
