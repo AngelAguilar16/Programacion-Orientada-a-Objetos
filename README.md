@@ -1,7 +1,7 @@
 # Programación Orientada a Objetos
 
 ## Informacion base
-Esta pequeña aplicacion funciona para sacar el area de ciertas figuras geometricas.
+Este repositorio contiene aplicaciones diversas todas con el uso de programación basada en objetos.
 	
 ## Lenguajes usados
 Desarrollado con:
