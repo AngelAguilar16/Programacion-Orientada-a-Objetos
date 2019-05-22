@@ -5,6 +5,7 @@ Este repositorio contiene aplicaciones diversas todas con el uso de programació
 	
 ## Lenguajes usados
 Desarrollado con:
+* Java
 * HTML5
 * CSS3
 * JS
