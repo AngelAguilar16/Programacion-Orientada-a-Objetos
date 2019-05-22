@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Práctica 6</title>
+  </head>
+  <body>
+    <div class="contanier mt-2 mx-2">
+
+        <form action="" id="form-est">
+            <div class="form-group">
+                <label for="nocta" id="label-nocta">No. de Cuenta</label>
+                <input 
+                    type="text" 
+                    id="nocta" 
+                    name="nocta" 
+                    class="form-control"
+                    placeholder="[ej. 20141234]"
+                >
+            </div>
+            <div class="form-group">
+                <label for="nombre" id="label-nombre">Nombre</label>
+                <input 
+                    type="text" 
+                    id="nombre" 
+                    name="nombre" 
+                    class="form-control"
+                    placeholder="Nombre completo"
+                >
+            </div>  
+            <div class="form-group">
+                <label for="email" id="label-email">Correo electrónico</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    class="form-control"
+                >
+            </div>                      
+            <button id="guardar" 
+                    type="submit" 
+                    class="btn btn-primary">
+                        Guardar
+            </button>        
+    </form>
+
+      <table class="table table-striped table-sm mt-2">
+        <thead>
+          <tr>
+            <th>No. Cta.</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+          </tr>
+        </thead>
+        <tbody id="listaDatos">
+
+        </tbody>
+      </table>
+    </div>
+    <script src="assets/js/clases.js"></script>
+    <script src="assets/js/app3.js"></script>
+  </body>
+</html>
