@@ -6,7 +6,13 @@ const form = document.querySelector("#form-figura");
 figura.addEventListener('change',()=> {
     var html = '';
     switch(figura.value){
-        case "2":break;
+        case "2": html =`
+                    <div class="form-group">
+                        <label for="radio">Radio</label>
+                        <input type="number" class="form-control" id="radio"  placeholder="0.0">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Calcular</button>
+                `;break;
         case "1":
         case "3":
         case "4": html =`
@@ -30,11 +36,16 @@ form.addEventListener('submit', (e) => {
     e.stopPropagation();
 
     var datos = new FormData();
-    if(figura.value !== 2){
+    if(figura.value != 2){
         let altura = document.querySelector("#altura").value;
         let base = document.querySelector("#base").value;
         datos.append('a', altura);
         datos.append('b', base);
+    }
+
+    else if(figura.value == 2){
+        let radio = document.querySelector("#radio").value;
+        datos.append('r', radio);
     }
 
     var url = '';

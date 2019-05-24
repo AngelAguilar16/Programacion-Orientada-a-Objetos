@@ -7,7 +7,7 @@
     $altura = $datos['a'];
     $base = $datos['b'];
 
-    $rec = new Rectangulo($base, $altura);
+    $trec = new TrianguloRectanguloIsosceles($base, $altura);
 
-    echo $rec->realizarCalculos();
+    echo $trec->realizarCalculos();
 ?>

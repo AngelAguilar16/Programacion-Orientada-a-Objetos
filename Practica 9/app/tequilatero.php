@@ -7,7 +7,7 @@
     $altura = $datos['a'];
     $base = $datos['b'];
 
-    $rec = new Rectangulo($base, $altura);
+    $teq = new TrianguloEquilatero($base, $altura);
 
-    echo $rec->realizarCalculos();
+    echo $teq->realizarCalculos();
 ?>
