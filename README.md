@@ -11,4 +11,6 @@ Desarrollado con:
 * JS
 * PHP
 
-Desarrolado por: Ángel Aguilar
+Desarrolado por: Ángel Aguilar para Coders Everywhere
+
+<img src="logo.png" alt="CE" style="height: 100px; width: 100px; margin: 0 auto;">
