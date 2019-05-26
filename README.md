@@ -13,4 +13,4 @@ Desarrollado con:
 
 Desarrolado por: Ángel Aguilar para Coders Everywhere
 
-<img src="logo.png" alt="CE" style="height: 50px; width: 50px; margin: 0 auto;">
+<img src="logo.png" alt="CE" height="50px" width="50px">
