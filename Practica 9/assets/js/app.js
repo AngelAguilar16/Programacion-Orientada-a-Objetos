@@ -13,7 +13,17 @@ figura.addEventListener('change',()=> {
                     </div>
                     <button type="submit" class="btn btn-primary">Calcular</button>
                 `;break;
-        case "1":
+        case "1": html = `
+                    <div class="form-group">
+                        <label for="base">Base</label>
+                        <input type="number" class="form-control" id="base"  placeholder="0.0">
+                    </div>
+                    <div class="form-group">
+                        <label for="altura">Altura</label>
+                        <input type="number" class="form-control" id="altura" placeholder="0.0">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Calcular</button>`;
+                    break;
         case "3":
         case "4": html =`
                         <div class="form-group">
@@ -24,8 +34,12 @@ figura.addEventListener('change',()=> {
                             <label for="altura">Altura</label>
                             <input type="number" class="form-control" id="altura" placeholder="0.0">
                         </div>
-                        <button type="submit" class="btn btn-primary">Calcular</button>
-                    `;break;
+                        <div class="form-group">
+                            <label for="ladoc">Lado C</label>
+                            <input type="number" class="form-control" id="ladoc" placeholder="0.0">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Calcular</button>`;
+                        break;
     }
     form.innerHTML = html;
 });
@@ -39,8 +53,10 @@ form.addEventListener('submit', (e) => {
     if(figura.value != 2){
         let altura = document.querySelector("#altura").value;
         let base = document.querySelector("#base").value;
+        let ladoc = document.querySelector("#ladoc").value;
         datos.append('a', altura);
         datos.append('b', base);
+        datos.append('c', ladoc);
     }
 
     else if(figura.value == 2){

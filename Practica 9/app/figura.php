@@ -58,9 +58,10 @@
         private $base = 0;
         private $altura = 0;
 
-        public function __construct($b, $a){
+        public function __construct($b, $a, $c){
             $this->base = $b;
             $this->altura = $a;
+            $this->ladoc = $c;
         }
 
         public function calculaPerimetro(){
@@ -78,17 +79,18 @@
         }
     }
 
-    class TrianguloRectanguloIsosceles extends Figura {
+    class TrianguloRectangulo extends Figura {
         private $base = 0;
         private $altura = 0;
 
-        public function __construct($b, $a){
+        public function __construct($b, $a, $c){
             $this->base = $b;
             $this->altura = $a;
+            $this->ladoc = $c;
         }
 
         public function calculaPerimetro(){
-            $this->perimetro = (2 * $this->base) + $this->altura;
+            $this->perimetro = $this->base + $this->altura + $this->ladoc;
         }
 
         public function calculaArea(){
