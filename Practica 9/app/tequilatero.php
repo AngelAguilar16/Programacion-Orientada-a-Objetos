@@ -6,8 +6,9 @@
 
     $altura = $datos['a'];
     $base = $datos['b'];
+    $ladoc = $datos['c'];
 
-    $teq = new TrianguloEquilatero($base, $altura);
+    $teq = new TrianguloEquilatero($base, $altura, $ladoc);
 
     echo $teq->realizarCalculos();
 ?>

@@ -50,7 +50,14 @@ form.addEventListener('submit', (e) => {
     e.stopPropagation();
 
     var datos = new FormData();
-    if(figura.value != 2){
+    if(figura.value == 1){
+        let altura = document.querySelector("#altura").value;
+        let base = document.querySelector("#base").value;
+        datos.append('a', altura);
+        datos.append('b', base);
+    }
+
+    else if(figura.value == 3 && figura.value == 4){
         let altura = document.querySelector("#altura").value;
         let base = document.querySelector("#base").value;
         let ladoc = document.querySelector("#ladoc").value;

@@ -57,6 +57,7 @@
     class TrianguloEquilatero extends Figura {
         private $base = 0;
         private $altura = 0;
+        private $ladoc = 0;
 
         public function __construct($b, $a, $c){
             $this->base = $b;
@@ -65,7 +66,7 @@
         }
 
         public function calculaPerimetro(){
-            $this->perimetro = 3 * $this->base;
+            $this->perimetro = $this->base * 3;
         }
 
         public function calculaArea(){
@@ -82,6 +83,7 @@
     class TrianguloRectangulo extends Figura {
         private $base = 0;
         private $altura = 0;
+        private $ladoc = 0;
 
         public function __construct($b, $a, $c){
             $this->base = $b;
