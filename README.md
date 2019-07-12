@@ -11,7 +11,7 @@ Desarrollado con:
 * JS
 * PHP
 
-Desarrolado por: [Ángel Aguilar](https://twitter.com/devangelaguilar)
+Desarrollado por: [Ángel Aguilar](https://twitter.com/devangelaguilar)
 
 <p align="center">
     <img src="logo.png" alt="CE" height="100px" width="100px">
