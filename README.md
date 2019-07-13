@@ -1,8 +1,11 @@
 # Programación Orientada a Objetos
 
-## Informacion base
-Este repositorio contiene aplicaciones diversas todas con el uso de programación basada en objetos.
-	
+
+**Author:** Ángel Aguilar\
+**Email:** mgordillo0@ucol.mx\
+**Website:** angelaguilar16.github.io\
+Copyright Ángel Aguilar 2019
+
 ## Lenguajes usados
 Desarrollado con:
 * Java
@@ -10,9 +13,3 @@ Desarrollado con:
 * CSS3
 * JS
 * PHP
-
-Desarrollado por: [Ángel Aguilar](https://twitter.com/devangelaguilar)
-
-<p align="center">
-    <img src="logo.png" alt="CE" height="100px" width="100px">
-</p>
